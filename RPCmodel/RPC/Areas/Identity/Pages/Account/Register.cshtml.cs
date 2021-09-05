@@ -79,6 +79,10 @@ namespace RPC.Areas.Identity.Pages.Account
             [DataType(DataType.Text)]
             [Display(Name = "Last Name")]
             public string LastName { get; set; }
+
+            [Required]
+            [DataType(DataType.Date)]
+            public DateTime BirthDate { get; set; }
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -98,7 +102,7 @@ namespace RPC.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new RPCUser {  UserName = Input.UserID, Email = Input.Email, FirstName =Input.FirstName,LastName=Input.LastName };
+                var user = new RPCUser {  UserName = Input.UserID, Email = Input.Email, FirstName =Input.FirstName,LastName=Input.LastName, BirthDate = Input.BirthDate };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
