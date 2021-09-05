@@ -195,4 +195,3 @@ C:\Users\aleja\Desktop\ICESI\SEMESTRE_7\PROYECTO_INTEGRADOR_I\ProyectosVS\Testin
 C:\Users\aleja\Desktop\ICESI\SEMESTRE_7\PROYECTO_INTEGRADOR_I\ProyectosVS\TestingASPNET\RazorPages\Identity\RPCmodel\RPC\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\aleja\Desktop\ICESI\SEMESTRE_7\PROYECTO_INTEGRADOR_I\ProyectosVS\TestingASPNET\RazorPages\Identity\RPCmodel\RPC\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\aleja\Desktop\ICESI\SEMESTRE_7\PROYECTO_INTEGRADOR_I\ProyectosVS\TestingASPNET\RazorPages\Identity\RPCmodel\RPC\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
-C:\Users\aleja\Desktop\ICESI\SEMESTRE_7\PROYECTO_INTEGRADOR_I\ProyectosVS\TestingASPNET\RazorPages\Identity\RPCmodel\RPC\obj\Debug\net5.0\RPC.csproj.AssemblyReference.cache
