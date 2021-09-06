@@ -24,6 +24,6 @@ namespace RPC.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
-        public DbSet<RPC.Areas.Identity.Data.RPCUser> User { get; set; }
+        public DbSet<RPCUser> User { get; set; }
     }
 }
